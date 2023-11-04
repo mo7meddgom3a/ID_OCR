@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Front and Back Images</title>
+</head>
+<body>
+    <h1>Upload Front and Back Images</h1>
+    <form method="POST" action="/uploadfront" enctype="multipart/form-data">
+        <label for="image">Front Side Image:</label>
+        <input type="file" name="image" id="image" accept="image/*" required>
+        <input type="submit" value="Upload Front Side">
+    </form>
+    <form method="POST" action="/uploadback" enctype="multipart/form-data">
+        <label for="image_back">Back Side Image:</label>
+        <input type="file" name="image" id="image_back" accept="image/*" required>
+        <input type="submit" value="Upload Back Side">
+    </form>
+</body>
+</html>
