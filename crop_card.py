@@ -104,7 +104,7 @@ def crop_card(img, card_vertices, out_size= (840, 530)):
 
     # Apply the perspective transformation
     result = cv2.warpPerspective(img, M, out_size)
-
+    
     return result
 
 

@@ -1,4 +1,4 @@
-from ocr import process_ocr_front, process_ocr_back, process_ocr_two_side
+from ocr import process_ocr_front, process_ocr_back
 from flask import Flask, render_template, request
 import os
 import cv2
